@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Genius Face</string>
+    <string name="capture">Capture</string>
+    <string name="title_activity_confirmation">ConfirmationActivity</string>
+    <string name="image_confirmation">Image Confirmation</string>
+    <string name="title_activity_confirmatin">ConfirmatinActivity</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="capture_button">Capture Button</string>
+    <string name="save_image">Save Image</string>
+    <string name="cancel_image">Cancel Image</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="about">About</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="start">START</string>
+    <string name="go_back">Go Back</string>
+
+</resources>

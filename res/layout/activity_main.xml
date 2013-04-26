@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+	<com.dunteam.android.geniusface.PreviewFrameLayout 
+		android:id="@+id/frame"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	
+		<android.view.SurfaceView
+			android:id="@+id/preview"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+		</android.view.SurfaceView>
+	</com.dunteam.android.geniusface.PreviewFrameLayout>
+	
+	<ImageButton
+	    android:id="@+id/capture"
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:onClick="capture"
+	    android:contentDescription="@string/capture_button"
+	    android:src="@drawable/device_access_camera"
+	    android:background="@drawable/capture_button"
+	    />
+
+</LinearLayout>
